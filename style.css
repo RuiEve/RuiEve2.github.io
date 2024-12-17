@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+}
+header {
+    background-color: #343a40;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+}
+.banner {
+    background-color: #343a40; /* Dark background for contrast */
+    padding: 20px 0; /* Padding around the banner */
+    text-align: center; /* Center align content */
+}
+
+.logo {
+    max-width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
