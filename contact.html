@@ -28,10 +28,6 @@
 <main class='container mt-4'>
     <h1>Contact Us</h1>
 
-    <!-- Display saved name if exists -->
-    <?php if(isset($_COOKIE['user_name'])): ?>
-        <p>Welcome back, <?= htmlspecialchars($_COOKIE['user_name']); ?>!</p>
-    <?php endif; ?>
 
     <!-- Contact Form -->
     <form id='contactForm' action="https://example.com/submit-form" method="POST">
